@@ -1,0 +1,75 @@
+{
+	"common": {
+		"name": "gpsd-client",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"titleLang": {
+			"en": "gpsd-client",
+			"de": "gpsd-client",
+			"ru": "gpsd-client",
+			"pt": "gpsd-client",
+			"nl": "gpsd-client",
+			"fr": "gpsd-client",
+			"it": "gpsd-client",
+			"es": "gpsd-client",
+			"pl": "gpsd-client",
+			"zh-cn": "gpsd-client"
+		},
+		"desc": {
+			"en": "client to connect to gpsd daemon",
+			"de": "client to connect to gpsd daemon",
+			"ru": "client to connect to gpsd daemon",
+			"pt": "client to connect to gpsd daemon",
+			"nl": "client to connect to gpsd daemon",
+			"fr": "client to connect to gpsd daemon",
+			"it": "client to connect to gpsd daemon",
+			"es": "client to connect to gpsd daemon",
+			"pl": "client to connect to gpsd daemon",
+			"zh-cn": "client to connect to gpsd daemon"
+		},
+		"authors": [
+			"Chris <c.meul@gmx.de>"
+		],
+		"keywords": [
+			"gpsd",
+			"client"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"icon": "gpsd-client.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/Chris87M/ioBroker.gpsd-client/master/admin/gpsd-client.png",
+		"readme": "https://github.com/Chris87M/ioBroker.gpsd-client/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "geoposition",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "push",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}

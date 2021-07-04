@@ -1,0 +1,40 @@
+{
+	"cli": true,
+	"adapterName": "gpsd-client",
+	"title": "gpsd-client",
+	"description": "client to connect to gpsd daemon",
+	"keywords": [
+		"gpsd",
+		"client"
+	],
+	"expert": "no",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "geoposition",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "push",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"adminReact": "no",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"releaseScript": "yes",
+	"devServer": "no",
+	"indentation": "Tab",
+	"quotes": "single",
+	"es6class": "yes",
+	"authorName": "Chris",
+	"authorGithub": "Chris87M",
+	"authorEmail": "c.meul@gmx.de",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"license": "MIT License",
+	"ci": "gh-actions",
+	"dependabot": "no",
+	"creatorVersion": "1.34.0"
+}
